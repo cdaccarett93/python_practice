@@ -87,3 +87,18 @@ jon.name = 'jon snow'
 jon.noise = 'WOOF'
 print(jon.get_color())
 print(jon.make_noise())
+
+
+list_num = []
+for i in range(10):
+    list_num.append(i)
+
+list_num_length = len(list_num)
+print("list_num length", list_num_length)
+print("list num val", list_num[len(list_num)-1])
+
+
+matrix = [[]]
+matrix = [[0 for i in range(2)] for i in range(2)]
+
+print("matrix: ", matrix)

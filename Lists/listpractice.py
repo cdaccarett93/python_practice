@@ -22,6 +22,3 @@ listinbytes(50)
 # to constantly be take memory for every element being appended. It grabs enough memory for future
 # elements and does this again once it detects that it will probably need more memory for more future elements.
 
-
-
-
